@@ -166,13 +166,9 @@ function Footer() {
           </div>
         </div>
 
-        <div className=" text-gray-300">
-          <div className="w-full text-xs p-4 md:py-8">
-            <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <div className="sm:flex sm:items-center sm:justify-between">
-              <div className="text-sm">
-                @ 2023 Realverse Proptech pvt limited. All rights reserved.
-              </div>
+        <div className="bg-temp-violet-dark px-4 xs-lg:px-10">
+          <div className=" py-6 mt-12 text-white max-w-[90rem] mx-auto">
+            <div className="text-sm sm:flex sm:text-base justify-between">
               <ul className="flex flex-wrap gap-x-4 items-center mb-6 font-medium sm:mb-0 ">
                 <li>
                   <CustomLink href="/about">About</CustomLink>
@@ -187,6 +183,11 @@ function Footer() {
                   <CustomLink href="/contact">Contact</CustomLink>
                 </li>
               </ul>
+              <p>Disclaimer</p>
+            </div>
+            <hr className="border-b my-4" />
+            <div className="text-sm text-center">
+              Copyright©2023 Realverse Associates Pvt. Ltd. All rights reserved.
             </div>
           </div>
         </div>

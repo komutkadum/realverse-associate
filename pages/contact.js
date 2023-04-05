@@ -13,7 +13,7 @@ function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <section>
+      <section className="bg-primary-light">
         <div className="max-w-6xl px-5  md:px-10 mx-auto pt-6 md:pt-10 pb-28">
           <h1 className="text-2xl md:text-4xl text-center font-extrabold text-amber-500">
             Contact Us
@@ -22,31 +22,39 @@ function Home() {
             <form className="text-sm grid gap-y-4 flex-1">
               <div className="grid gap-y-2">
                 <label className="font-medium">Name</label>
-                <input type="text" placeholder="john doe" className="" />
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  className="rounded-md border-gray-300"
+                />
               </div>
               <div className="grid gap-y-2">
                 <label className="font-medium">Email</label>
                 <input
                   type="text"
-                  placeholder="johndoe@gmail.com"
-                  className=""
+                  placeholder="Enter your email"
+                  className="rounded-md border-gray-300"
                 />
               </div>
               <div className="grid gap-y-2">
                 <label className="font-medium">Phone</label>
-                <input type="number" placeholder="88333....." className="" />
+                <input
+                  type="number"
+                  placeholder="Enter your phone number"
+                  className="rounded-md border-gray-300"
+                />
               </div>
               <div className="grid gap-y-2">
                 <label className="font-medium">Message</label>
                 <textarea
                   type="number"
                   placeholder="Enter your message"
-                  className=""
+                  className="rounded-md border-gray-300"
                   rows={3}
                 />
               </div>
               <div>
-                <button className="bg-blue-600 hover:bg-blue-700 py-2 px-14 text-lg text-white">
+                <button className="bg-blue-600 rounded-md hover:bg-blue-700 py-2 px-14 text-lg text-white">
                   Submit
                 </button>
               </div>
@@ -62,7 +70,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="bg-temp-violet/5">
+      <section className="">
         <div className="max-w-7xl px-2 service-category-lg:px-4 mx-auto pt-28 pb-28">
           <h1 className="text-2xl md:text-4xl text-center font-extrabold text-amber-500">
             Our Office

@@ -1,4 +1,5 @@
 import { ALL_SERVICE_DATA } from '@/lib/data';
+import Link from 'next/link';
 import { useState } from 'react';
 
 function HomePageUtility() {
@@ -18,14 +19,14 @@ export function AllServiceUtility() {
         >
           Start your business
         </li>
-        <li
+        {/* <li
           className={`flex items-center py-3 px-6  cursor-pointer hover:text-temp-violet ${
             currentTab === 1 && 'all-service-active-link'
           }`}
           onClick={() => setCurrentTab(1)}
         >
           Loans & Insurance
-        </li>
+        </li> */}
         <li
           className={`flex items-center py-3 px-6  cursor-pointer hover:text-temp-violet ${
             currentTab === 2 && 'all-service-active-link'
@@ -81,13 +82,13 @@ export function AllServiceUtility() {
                     </h2>
                     <p className="text-xs mt-1">Professional Fees</p>
                   </div>
-                  <a
+                  <Link
                     target="_blank"
                     className="service-detail-bottom-button"
                     href={item.href}
                   >
                     GET&nbsp;STARTED
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}

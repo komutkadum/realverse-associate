@@ -4,33 +4,40 @@ function CTAForm() {
       <h1 className="text-lg text-center font-extrabold">
         Have queries? Talk to an expert
       </h1>
-      <form className="grid gap-y-4 py-4 text-base font-normal ">
+      <form className="grid gap-y-4 py-4 text-base font-normal">
         <div className="grid gap-y-2">
           <label className="font-bold">Name</label>
           <input
             type="text"
-            placeholder="john doe"
-            className="rounded-md text-sm"
+            placeholder="Enter your name"
+            className="rounded-md text-sm border-gray-400"
+            required
           />
         </div>
         <div className="grid gap-y-2">
           <label className="font-bold">Email</label>
           <input
             type="email"
-            placeholder="johndoe@gmail.com"
-            className="rounded-md text-sm"
+            placeholder="Enter your email"
+            className="rounded-md text-sm border-gray-400"
+            required
           />
         </div>
         <div className="grid gap-y-2">
           <label className="font-bold">Mobile</label>
           <input
             type="number"
-            placeholder="+9188304....."
-            className="rounded-md text-sm"
+            placeholder="Enter your phone number"
+            className="rounded-md text-sm border-gray-400"
+            required
           />
         </div>
         <div className="flex items-center">
-          <input type="checkbox" className="focus:ring-0 focus:outline-none" />
+          <input
+            type="checkbox"
+            className="focus:ring-0 focus:outline-none"
+            required
+          />
           <label className="text-sm ml-2">
             I agree to receive updates on WhatsApp
           </label>

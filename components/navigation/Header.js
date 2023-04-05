@@ -14,7 +14,7 @@ function Header() {
         <Link href="/">
           <h1 className="text-xl sm:text-2xl xl:text-[32px] font-extrabold">
             <span>Realverse</span>&nbsp;
-            <span className="text-amber-500">Associate</span>
+            <span className="text-amber-500">Associates</span>
           </h1>
         </Link>
         <ul className="justify-between gap-x-4 text-sm  items-center font-bold hidden lg:flex">
@@ -76,53 +76,83 @@ function Header() {
             />
             <div className="absolute hidden group-hover:flex px-4 py-3 -translate-x-1/2 custom-animation bg-white top-[60px] text-temp-violet-dark text-xs  shadow-2xl font-bold">
               <ul className=" border-r">
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Personal Loan
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Business Loan
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Housing Loan
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Loan Against Property
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  MSME Loan
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Micro Finance
-                </li>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Personal Loan
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Business Loan
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Housing Loan
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Loan Against Property
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    MSME Loan
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Micro Finance
+                  </li>
+                </Link>
               </ul>
               <ul className="">
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Health Insurance
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Vehicle Insurance
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Travel Insurance
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Corporate Insurance
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Personal Accident
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Group Term Insurance
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Life Insurance
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Keyman Insurance
-                </li>
-                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
-                  Commercial Vehicle Insurance
-                </li>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Health Insurance
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Vehicle Insurance
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Travel Insurance
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Corporate Insurance
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Personal Accident
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Group Term Insurance
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Life Insurance
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Keyman Insurance
+                  </li>
+                </Link>
+                <Link href="/contact">
+                  <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                    Commercial Vehicle Insurance
+                  </li>
+                </Link>
               </ul>
             </div>
           </li>
@@ -247,7 +277,10 @@ function Header() {
           <span></span>
           <span></span>
         </div>
-        <h3 className="text-sm btn-bg relative px-4 py-2 font-bold hidden lg:inline-flex gap-x-2 rounded-lg bg-amber-500 hover:bg-amber-600 ">
+        <a
+          href="tel:080-69428002"
+          className="text-sm btn-bg relative px-4 py-2 font-bold hidden lg:inline-flex gap-x-2 rounded-lg bg-amber-500 hover:bg-amber-600 "
+        >
           <img
             src="/icons/contact-icon.png"
             alt="contact icon"
@@ -255,7 +288,7 @@ function Header() {
           />
           <span className="hidden lg-xl:inline">080-69428002</span>
           <div className="absolute h-3 w-3 animate-ping bg-white right-1 top-1 rounded-full opacity-70"></div>
-        </h3>
+        </a>
       </nav>
       <MobileHeader navOpen={navOpen} />
     </>
@@ -290,23 +323,53 @@ function MobileHeader({ navOpen }) {
             </Link>
           </MobileHeaderAccordion>
           <MobileHeaderAccordion title="Loans">
-            <li>Personal Loan</li>
-            <li>Business Loan</li>
-            <li>Housing Loan</li>
-            <li>Loan Against Property</li>
-            <li>MSME Loan</li>
-            <li>Micro Finance</li>
+            <Link href="/contact">
+              <li>Personal Loan</li>
+            </Link>
+            <Link href="/contact">
+              <li>Business Loan</li>
+            </Link>
+            <Link href="/contact">
+              <li>Housing Loan</li>
+            </Link>
+            <Link href="/contact">
+              <li>Loan Against Property</li>
+            </Link>
+            <Link href="/contact">
+              <li>MSME Loan</li>
+            </Link>
+            <Link href="/contact">
+              <li>Micro Finance</li>
+            </Link>
           </MobileHeaderAccordion>
           <MobileHeaderAccordion title="Insurance">
-            <li>Health Insurance</li>
-            <li>Vehicle Insurance</li>
-            <li>Travel Insurance</li>
-            <li>Corporate Insurance</li>
-            <li>Personal Accident</li>
-            <li>Group Term Insurance</li>
-            <li>Life Insurance</li>
-            <li>Keyman Insurance</li>
-            <li>Commercial Vehicle Insurance</li>
+            <Link href="/contact">
+              <li>Health Insurance</li>
+            </Link>
+            <Link href="/contact">
+              <li>Vehicle Insurance</li>
+            </Link>
+            <Link href="/contact">
+              <li>Travel Insurance</li>
+            </Link>
+            <Link href="/contact">
+              <li>Corporate Insurance</li>
+            </Link>
+            <Link href="/contact">
+              <li>Personal Accident</li>
+            </Link>
+            <Link href="/contact">
+              <li>Group Term Insurance</li>
+            </Link>
+            <Link href="/contact">
+              <li>Life Insurance</li>
+            </Link>
+            <Link href="/contact">
+              <li>Keyman Insurance</li>
+            </Link>
+            <Link href="/contact">
+              <li>Commercial Vehicle Insurance</li>
+            </Link>
           </MobileHeaderAccordion>
           <MobileHeaderAccordion title="Compliance">
             <Link href="/accounting-mis">
