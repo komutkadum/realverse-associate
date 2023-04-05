@@ -15,6 +15,7 @@ module.exports = {
       'service-box-md': '1020px',
       'service-box-lg': '1220px',
       xs: '400px',
+      'xs-lg': '520px',
       sm: '640px',
       md: '768px',
       'md-lg': '950px',
@@ -29,6 +30,7 @@ module.exports = {
       gridTemplateColumns: {
         // Simple 16 column grid
         cta: 'minmax(min(50vw, 30ch), 1fr) fit-content(400px)',
+        contactTemplate: 'fit-content(32ch) minmax(min(50vw, 30ch), 1fr)',
       },
       colors: {
         'primary-yellow': '#3a86ff',

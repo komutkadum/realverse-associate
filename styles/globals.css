@@ -18,6 +18,11 @@ body {
   padding: 0 clamp(2px, 5%, 10rem);
 }
 
+.contact-sidebar {
+  display: grid;
+  grid-template-columns: fit-content(32ch) minmax(min(50vw, 30ch), 1fr);
+}
+
 /* slider animation */
 .slider div {
   height: 50px;

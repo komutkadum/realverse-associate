@@ -40,27 +40,27 @@ function Header() {
             />
             <ul className="absolute hidden group-hover:block custom-animation bg-white top-[60px] text-temp-violet-dark text-xs  shadow-2xl font-bold  px-4 py-3 -translate-x-1/2">
               <Link href="/private-limited-company">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Private Limited Company
                 </li>
               </Link>
               <Link href="/one-person-company">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   One Person Company
                 </li>
               </Link>
               <Link href="/limited-liability-partnership">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Limited Liability Partnership
                 </li>
               </Link>
               <Link href="/partnership-firm">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Partnership Firm
                 </li>
               </Link>
               <Link href="/proprietorship-concern">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Proprietorship Concern
                 </li>
               </Link>
@@ -76,49 +76,51 @@ function Header() {
             />
             <div className="absolute hidden group-hover:flex px-4 py-3 -translate-x-1/2 custom-animation bg-white top-[60px] text-temp-violet-dark text-xs  shadow-2xl font-bold">
               <ul className=" border-r">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Personal Loan
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Business Loan
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Housing Loan
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Loan Against Property
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">MSME Loan</li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
+                  MSME Loan
+                </li>
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Micro Finance
                 </li>
               </ul>
               <ul className="">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Health Insurance
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Vehicle Insurance
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Travel Insurance
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Corporate Insurance
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Personal Accident
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Group Term Insurance
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Life Insurance
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Keyman Insurance
                 </li>
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Commercial Vehicle Insurance
                 </li>
               </ul>
@@ -142,12 +144,12 @@ function Header() {
             />
             <ul className="absolute hidden group-hover:block custom-animation bg-white top-[60px] text-temp-violet-dark text-xs  shadow-2xl font-bold  px-4 py-3 -translate-x-1/2">
               <Link href="/accounting-mis">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Accounting & MIS
                 </li>
               </Link>
               <Link href="/company-annual-filings">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Company Annual Filings
                 </li>
               </Link>
@@ -158,7 +160,7 @@ function Header() {
               className={`group-hover:text-amber-500 ${
                 ['/gst-registration', '/gst-filing', '/income-tax'].indexOf(
                   router.pathname
-                ) !== -1 && 'text-amber-500'
+                ) !== -1 && 'text-amber-500 '
               }`}
             >
               Tax & GST
@@ -171,17 +173,17 @@ function Header() {
             />
             <ul className="absolute hidden group-hover:block custom-animation bg-white top-[60px] text-temp-violet-dark text-xs  shadow-2xl font-bold  px-4 py-3 -translate-x-1/2">
               <Link href="/gst-registration">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   GST Registration
                 </li>
               </Link>
               <Link href="/gst-filing">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   GST Filing
                 </li>
               </Link>
               <Link href="/income-tax">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Income Tax
                 </li>
               </Link>
@@ -219,17 +221,17 @@ function Header() {
             />
             <ul className="absolute hidden group-hover:block custom-animation bg-white top-[60px] text-temp-violet-dark text-xs  shadow-2xl font-bold  px-4 py-3 -translate-x-1/2">
               <Link href="/start-up-india-registration">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   Start-up India Registration
                 </li>
               </Link>
               <Link href="/esop-planning">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   ESOP Planning
                 </li>
               </Link>
               <Link href="/cfo-services">
-                <li className="py-3 px-4 hover:bg-temp-violet/20">
+                <li className="py-3 px-4 hover:text-amber-700 hover:bg-temp-violet/20">
                   CFO Services
                 </li>
               </Link>
