@@ -2,7 +2,7 @@
 import Footer from '@/components/navigation/Footer';
 import Header from '@/components/navigation/Header';
 import CTAForm from '@/components/utility/CTAForm';
-import { AllServiceUtility } from '@/components/utility/HomePageUtility';
+import { AllServiceUtilityNew } from '@/components/utility/HomePageUtility';
 import WhyChoose from '@/components/utility/WhyChoose';
 import Head from 'next/head';
 
@@ -69,7 +69,7 @@ export default function Home() {
           All Services
           <hr className="custom-hr" />
         </div>
-        <AllServiceUtility />
+        <AllServiceUtilityNew />
       </section>
 
       {/* <!-- india scheme --> */}
@@ -78,7 +78,7 @@ export default function Home() {
       </section>
 
       {/* <!-- our services --> */}
-      <section className="py-20 text-center bg-temp-violet-light leading-[22px]">
+      <section className="py-20 text-center hidden bg-temp-violet-light leading-[22px]">
         <div className="mx-auto max-w-7xl px-4 sm:px-8 md:px-12">
           <div className="text-2xl flex justify-center items-center font-bold gap-x-5 md:text-3xl">
             <hr className="custom-hr" />
@@ -288,7 +288,7 @@ export default function Home() {
       </section>
 
       {/* why choose realverse associates */}
-      <WhyChoose />
+      <WhyChoose className="bg-primary-light" />
 
       {/* footer */}
       <Footer />

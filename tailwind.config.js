@@ -30,6 +30,7 @@ module.exports = {
       gridTemplateColumns: {
         // Simple 16 column grid
         cta: 'minmax(min(50vw, 30ch), 1fr) fit-content(400px)',
+        allServices: 'repeat(auto-fill, minmax(min(100%, 350px), 1fr))',
         contactTemplate: 'fit-content(32ch) minmax(min(50vw, 30ch), 1fr)',
       },
       colors: {

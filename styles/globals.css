@@ -204,8 +204,11 @@ body {
   .all-service-active-link {
     @apply border-b-2 font-bold text-temp-violet border-temp-violet;
   }
+  /* .service-detail-container {
+    @apply bg-white p-[20px] w-[calc(100vw_-_20px)]  service-box-sm:w-[calc(50vw_-_30px)] service-box-lg:w-[370px] snap-center snap-always;
+  } */
   .service-detail-container {
-    @apply bg-white p-[20px] w-[calc(100vw_-_20px)] grid justify-between service-box-sm:w-[calc(50vw_-_30px)] service-box-lg:w-[370px] snap-center snap-always;
+    @apply bg-white p-[20px] grid justify-between;
   }
   .service-detail-header-container {
     @apply flex gap-x-[10px] text-base font-bold items-center;

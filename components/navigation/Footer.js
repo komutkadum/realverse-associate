@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { CustomLink } from '../utility/FooterNavigationUtility';
 
 function Footer() {
@@ -6,10 +7,17 @@ function Footer() {
       <section className="custom-gradient pt-16">
         <div className="max-w-[90rem] mx-auto px-10 flex flex-col items-start gap-y-10 lg-xl:flex-row lg-xl:justify-between">
           <div>
+            <div className="flex justify-center">
+              <img
+                src="/images/image 37.png"
+                alt="realverse associate"
+                className="w-60 my-5"
+              />
+            </div>
             <h1 className="text-xl xs-lg:text-2xl lg-xl:text-[28px] font-extrabold text-white">
               Realverse <span className="">Associates</span>
             </h1>
-            <div className="flex gap-x-4 mt-4">
+            <div className="flex justify-evenly gap-x-4 mt-4">
               <a className="p-2 flex rounded-full bg-white hover:bg-violet-500 cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +93,7 @@ function Footer() {
           </div>
           <div className="grid xs-lg:grid-cols-2 justify-between service-category-lg:flex service-category-lg:justify-end text-sm gap-x-16 text-temp-white gap-y-4">
             <ul className="flex flex-col gap-y-2.5 ">
-              <li className="text-lg font-bold text-gray-300">
+              <li className="text-lg font-bold text-gray-300 mb-2">
                 Start Your Business
               </li>
               <li>
@@ -116,7 +124,9 @@ function Footer() {
             </ul>
 
             <ul className="flex flex-col gap-y-2.5 ">
-              <li className="text-lg font-bold text-gray-300">Compliance</li>
+              <li className="text-lg font-bold text-gray-300 mb-2">
+                Compliance
+              </li>
 
               <li>
                 <CustomLink href="/accounting-mis">Accounting & MIS</CustomLink>
@@ -133,7 +143,9 @@ function Footer() {
             </ul>
 
             <ul className="flex flex-col gap-y-2.5 ">
-              <li className="text-lg font-bold text-gray-300">Tax & GST</li>
+              <li className="text-lg font-bold text-gray-300 mb-2">
+                Tax & GST
+              </li>
 
               <li>
                 <CustomLink href="/gst-registration">
@@ -149,7 +161,7 @@ function Footer() {
             </ul>
 
             <ul className="flex flex-col gap-y-2.5 ">
-              <li className="text-lg font-bold text-gray-300">Advisory</li>
+              <li className="text-lg font-bold text-gray-300 mb-2">Advisory</li>
 
               <li>
                 <CustomLink href="/start-up-india-registration">
