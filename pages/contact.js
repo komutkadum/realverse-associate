@@ -1,9 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 import Footer from '@/components/navigation/Footer';
 import Header from '@/components/navigation/Header';
+import { sendEmail } from '@/lib/sendEmail';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { useRef, useState } from 'react';
 
 function Home() {
+  const form = useRef();
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
+
   return (
     <>
       <Head>
@@ -19,43 +26,60 @@ function Home() {
             Contact Us
           </h1>
           <div className="grid md:flex md:justify-between mt-6 gap-x-4 gap-y-6 ">
-            <form className="text-sm grid gap-y-4 flex-1">
+            <form
+              ref={form}
+              onSubmit={(e) => sendEmail(e, setLoading, form, router)}
+              className="text-sm grid gap-y-4 flex-1"
+            >
               <div className="grid gap-y-2">
                 <label className="font-medium">Name</label>
                 <input
                   type="text"
                   placeholder="Enter your name"
+                  name="user_name"
                   className="rounded-md border-gray-300"
+                  required
                 />
               </div>
               <div className="grid gap-y-2">
                 <label className="font-medium">Email</label>
                 <input
-                  type="text"
+                  type="email"
                   placeholder="Enter your email"
+                  name="user_email"
                   className="rounded-md border-gray-300"
+                  required
                 />
               </div>
               <div className="grid gap-y-2">
                 <label className="font-medium">Phone</label>
                 <input
                   type="number"
+                  name="user_phone"
+                  min={10}
+                  max={10}
                   placeholder="Enter your phone number"
                   className="rounded-md border-gray-300"
+                  required
                 />
               </div>
               <div className="grid gap-y-2">
                 <label className="font-medium">Message</label>
                 <textarea
                   type="number"
+                  name="message"
                   placeholder="Enter your message"
                   className="rounded-md border-gray-300"
                   rows={3}
+                  required
                 />
               </div>
               <div>
-                <button className="bg-blue-600 rounded-md hover:bg-blue-700 py-2 px-14 text-lg text-white">
-                  Submit
+                <button
+                  className="bg-blue-600 rounded-md disabled:bg-gray-500 disabled:cursor-not-allowed hover:bg-blue-700 py-2 px-14 text-lg text-white"
+                  disabled={loading}
+                >
+                  {loading ? 'submitting...' : 'Submit'}
                 </button>
               </div>
             </form>
