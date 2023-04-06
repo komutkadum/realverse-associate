@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
+import CallButton from '../utility/CallButton';
 import { MobileHeaderAccordion } from '../utility/HeaderNavigationUtility';
 
 /* eslint-disable @next/next/no-img-element */
@@ -291,6 +292,7 @@ function Header() {
         </a>
       </nav>
       <MobileHeader navOpen={navOpen} />
+      <CallButton />
     </>
   );
 }
