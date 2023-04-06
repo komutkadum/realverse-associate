@@ -16,7 +16,7 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <CategoryPageCTA title="Registered Partnership Firm" price="6,299">
+        <CategoryPageCTA title="Registered Partnership Firm" price="2,999">
           <li>Easy to start</li>
           <li>Businesses with multiple Co-founders</li>
           <li>Relatively Inexpensive</li>

@@ -16,7 +16,7 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <CategoryPageCTA title="One Person Company" price="6,299">
+        <CategoryPageCTA title="One Person Company" price="4,999">
           <li>Individual Promoter / Person Driven Business</li>
           <li>Formalised version of Proprietorship</li>
           <li>Better Tax Planning</li>

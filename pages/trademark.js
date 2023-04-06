@@ -19,7 +19,7 @@ export default function Home() {
         <CategoryPageCTA
           title="Trademark Registration"
           subtitle="Safeguard your brand:"
-          price="6,299"
+          price="2,999"
         >
           <li>Sell better on E-commerce Websites</li>
           <li>Build trust towards your Brand</li>

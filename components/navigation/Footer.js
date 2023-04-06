@@ -11,13 +11,13 @@ function Footer() {
               <img
                 src="/images/image 37.png"
                 alt="realverse associate"
-                className="w-60 my-5"
+                className="w-56 mb-5"
               />
             </div>
             <h1 className="text-xl xs-lg:text-2xl lg-xl:text-[28px] font-extrabold text-white">
-              Realverse <span className="">Associates</span>
+              Realverse <span className="text-amber-400">Associates</span>
             </h1>
-            <div className="flex justify-evenly gap-x-4 mt-4">
+            <div className="flex justify-around gap-x-4 mt-4">
               <a className="p-2 flex rounded-full bg-white hover:bg-violet-500 cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ function Footer() {
           </div>
           <div className="grid xs-lg:grid-cols-2 justify-between service-category-lg:flex service-category-lg:justify-end text-sm gap-x-16 text-temp-white gap-y-4">
             <ul className="flex flex-col gap-y-2.5 ">
-              <li className="text-lg font-bold text-gray-300 mb-2">
+              <li className="text-lg font-bold text-gray-300 mb-4">
                 Start Your Business
               </li>
               <li>
@@ -124,7 +124,7 @@ function Footer() {
             </ul>
 
             <ul className="flex flex-col gap-y-2.5 ">
-              <li className="text-lg font-bold text-gray-300 mb-2">
+              <li className="text-lg font-bold text-gray-300 mb-4">
                 Compliance
               </li>
 
@@ -143,7 +143,7 @@ function Footer() {
             </ul>
 
             <ul className="flex flex-col gap-y-2.5 ">
-              <li className="text-lg font-bold text-gray-300 mb-2">
+              <li className="text-lg font-bold text-gray-300 mb-4">
                 Tax & GST
               </li>
 
@@ -161,7 +161,7 @@ function Footer() {
             </ul>
 
             <ul className="flex flex-col gap-y-2.5 ">
-              <li className="text-lg font-bold text-gray-300 mb-2">Advisory</li>
+              <li className="text-lg font-bold text-gray-300 mb-4">Advisory</li>
 
               <li>
                 <CustomLink href="/start-up-india-registration">
@@ -204,23 +204,6 @@ function Footer() {
           </div>
         </div>
       </section>
-
-      {/* <section className="py-12">
-        <div className="mx-auto max-w-7xl px-6 sm:px-8 md:px-12 grid w-full  text-center gap-y-4 md:text-left md:flex md:items-center md:justify-between">
-          <div className="text-temp-violet">
-            <h2 className="text-2xl font-bold md:text-3xl">
-              Get Started with Realverse Associates
-            </h2>
-            <p className="mx-auto mt-3 max-w-xl text-base">
-              Start, Grow, and manage your business. We are with you in every
-              step
-            </p>
-          </div>
-          <button className="bg-amber-500 hover:bg-amber-600 ease-in-out delay-100 transition-colors font-semibold tracking-wide text-lg text-white px-12 py-4 whitespace-nowrap">
-            Consult Now
-          </button>
-        </div>
-      </section> */}
     </>
   );
 }

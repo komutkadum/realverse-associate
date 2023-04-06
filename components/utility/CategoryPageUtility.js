@@ -6,6 +6,7 @@ function CategoryPageUtility() {
 
 export function CategoryPageCTA({
   title = '',
+  caption = 'In 15 days . From Any where . At a Single Click',
   price = '',
   subtitle = 'Best Suited For',
   children,
@@ -22,9 +23,7 @@ export function CategoryPageCTA({
               <span>@Rs.</span>
               <span className="ml-1">{price}*</span>
             </h1>
-            <p className="font-medium mb-4 text-sm">
-              In 15 days . From Any where . At a Single Click
-            </p>
+            <p className="font-medium mb-4 text-sm">{caption}</p>
             <div className="border text-temp-violet px-0 md:px-2 max-w-md mx-auto md:max-w-md flex mb-1.5 bg-white rounded-lg justify-center flex-col">
               <p className="pt-3 underline underline-offset-8 font-bold">
                 {subtitle}

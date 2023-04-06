@@ -18,7 +18,7 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <CategoryPageCTA title="Accounting & MIS" price="6,299">
+        <CategoryPageCTA title="Accounting & MIS" price="4,999">
           <li>Mandatory for Specified Businesses and Services</li>
           <li>Ensures timely and accurate compliance</li>
           <li>Get real-time financial health</li>

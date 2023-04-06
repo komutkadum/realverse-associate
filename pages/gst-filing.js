@@ -21,7 +21,8 @@ export default function Home() {
         <CategoryPageCTA
           title="GST Filing"
           subtitle="Why go with us?"
-          price="6,299"
+          price="1,999"
+          caption="For 3 months . From Any where . At a Single Click"
         >
           <li>Zero Penalty Guaranteed*</li>
           <li>Not just filing, but also GST Advisory</li>

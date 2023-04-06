@@ -16,7 +16,11 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <CategoryPageCTA title="ESOP Planning" price="6,299">
+        <CategoryPageCTA
+          title="ESOP Planning"
+          price="499"
+          caption="In 7 days . From Any where . At a Single Click"
+        >
           <li>Start-ups looking to hire top-talents</li>
           <li>Method to set-up co-founders remunerations</li>
           <li>Companies looking to retain top employees</li>

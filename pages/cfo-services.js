@@ -19,7 +19,11 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <CategoryPageCTA title="CFO & Management Consulting" price="1,249">
+        <CategoryPageCTA
+          title="CFO & Management Consulting"
+          price="4,999"
+          caption=""
+        >
           <li>Start-ups & Businesses looking for investors</li>
           <li>Financial Planning and Forecasting</li>
           <li>Budgeting and Cost Reduction</li>

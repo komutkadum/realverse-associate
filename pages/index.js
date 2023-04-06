@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Realverse Associate</title>
+        <title>Realverse Associates</title>
         <meta
           name="description"
-          content="Realverse Associate is the leading Online Company Registration Consultants services in Bangalore with trusted advisors for Taxation, Fund Raise Compliance &amp; Company Set-up Services all over India."
+          content="Realverse Associates is the leading Online Company Registration Consultants services in Bangalore with trusted advisors for Taxation, Fund Raise Compliance &amp; Company Set-up Services all over India."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
@@ -25,21 +25,24 @@ export default function Home() {
           {/* <!-- left side --> */}
           <div className="grid justify-center items-center gap-y-3">
             <h1 className="text-center ">
-              <span className="text-xl sm:text-2xl font-bold text-temp-white">
+              <span className="text-xl sm:text-2xl font-bold text-violet-200">
                 We are your trusted
               </span>
               <br />
-              <span className="text-xl leading-[30px] sm:text-3xl sm:leading-[45px] lg-xl:text-4xl lg-xl:leading-[55px] font-black text-white">
+              <span className="text-xl leading-[30px] sm:text-3xl sm:leading-[45px] lg-xl:text-4xl lg-xl:leading-[55px] font-black text-amber-400">
                 Chartered Accountant, Tax Consultants, Lawyers, Financial
                 Advisors.
               </span>
             </h1>
-            <p className="text-base sm:text-lg text-temp-white mobile-responsive-padding lg-md:px-32 text-center leading-[30px]">
+            <p className="text-base sm:text-lg text-violet-300 mobile-responsive-padding lg-md:px-32 text-center leading-[30px]">
               We handle your messy{' '}
-              <span className="text-white font-medium">legalities</span> and{' '}
-              <span className="text-white font-medium">documentation</span>, so
-              that you worry less and focus more on your{' '}
-              <span className="text-white font-medium">dream business.</span>
+              <span className="text-violet-200 font-medium">legalities</span>{' '}
+              and{' '}
+              <span className="text-violet-200 font-medium">documentation</span>
+              , so that you worry less and focus more on your{' '}
+              <span className="text-violet-200 font-medium">
+                dream business.
+              </span>
             </p>
             <div className="text-xs xl:text-sm sm:text-base text-center font-bold lg-md:px-24 lg-lg:px-32">
               <ul className="grid grid-cols-2 gap-y-4 py-6 bg-white text-temp-violet-dark shadow-2xl rounded-lg">

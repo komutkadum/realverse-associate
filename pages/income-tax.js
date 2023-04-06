@@ -19,7 +19,8 @@ export default function Home() {
         <CategoryPageCTA
           title="Income Tax Filing"
           subtitle="It includes"
-          price="6,299"
+          price="299"
+          caption="In 1 day . From Any where . At a Single Click"
         >
           <li>Creation of Computation for given FY</li>
           <li>Filing of Income Tax Return (ITR) for the FY</li>

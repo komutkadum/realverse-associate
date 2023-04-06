@@ -18,7 +18,7 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <CategoryPageCTA title="Private Limited Company" price="6,299">
+        <CategoryPageCTA title="Private Limited Company" price="4,999">
           <li>Start-ups & Businesses looking for investors</li>
           <li>Businesses with multiple Co-founders</li>
           <li>Better Tax Planning</li>

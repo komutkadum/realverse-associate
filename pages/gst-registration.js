@@ -16,7 +16,11 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <CategoryPageCTA title="GST Registration" price="1,999">
+        <CategoryPageCTA
+          title="GST Registration"
+          price="999"
+          caption="In 7 days . From Any where . At a Single Click"
+        >
           <li>Service Providers with Turnover of ₹ 20 Lacs</li>
           <li>Manufacturers & Traders with Turnover of ₹ 40 Lacs</li>
           <li>E-commerce / Marketplace Registrations</li>

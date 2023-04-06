@@ -22,7 +22,8 @@ export default function Home() {
         <CategoryPageCTA
           title="Start-up India Registration"
           subtitle="DPIIT Registration is Best Suited for:"
-          price="6,299"
+          price="199"
+          caption="In 7 days . From Any where . At a Single Click"
         >
           <li>Start-ups & Businesses looking for investors</li>
           <li>Businesses going for Government tenders</li>

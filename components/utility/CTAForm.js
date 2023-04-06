@@ -60,7 +60,7 @@ function CTAForm() {
         <textarea
           className="hidden"
           name="message"
-          value="Request a callback"
+          defaultValue="Request a callback"
         ></textarea>
         <button className="px-4 relative py-2.5 text-sm btn-bg font-bold rounded-lg bg-amber-500 hover:bg-amber-600">
           {loading ? 'submitting...' : 'Request a Callback'}

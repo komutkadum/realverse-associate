@@ -16,7 +16,7 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <CategoryPageCTA title="Limited Liability Partnership" price="6,299">
+        <CategoryPageCTA title="Limited Liability Partnership" price="4,999">
           <li>Limited Liability</li>
           <li>Businesses with multiple Co-founders</li>
           <li>Lesser Compliances</li>

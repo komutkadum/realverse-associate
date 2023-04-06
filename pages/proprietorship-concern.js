@@ -16,7 +16,7 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <CategoryPageCTA title="Proprietorship Concern" price="6,299">
+        <CategoryPageCTA title="Proprietorship Concern" price="2,999">
           <li>Small / Micro Businesses</li>
           <li>Testing / Dry Runs of Business Ideas</li>
           <li>Businesses running on the promoter’s name</li>
