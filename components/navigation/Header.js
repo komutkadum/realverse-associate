@@ -13,7 +13,7 @@ function Header() {
     <>
       <nav className="w-full flex items-center bg-white z-50 text-temp-violet justify-between h-[60px] px-5 sticky top-0 whitespace-nowrap">
         <Link href="/">
-          <h1 className="text-xl sm:text-2xl xl:text-[32px] font-extrabold">
+          <h1 className="text-[22px] sm:text-2xl xl:text-[32px] font-extrabold">
             <span>Realverse</span>&nbsp;
             <span className="text-amber-500">Associates</span>
           </h1>

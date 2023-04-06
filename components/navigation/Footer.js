@@ -180,8 +180,8 @@ function Footer() {
 
         <div className="bg-temp-violet-dark px-4 xs-lg:px-10">
           <div className=" py-6 mt-12 text-white max-w-[90rem] mx-auto">
-            <div className="text-sm sm:flex sm:text-base justify-between">
-              <ul className="flex flex-wrap gap-x-4 items-center mb-6 font-medium sm:mb-0 ">
+            <div className="text-sm text-center sm:flex sm:text-base justify-between">
+              <ul className="flex justify-center flex-wrap gap-x-4 items-center mb-6 font-medium sm:mb-0 ">
                 <li>
                   <CustomLink href="/about">About</CustomLink>
                 </li>
@@ -197,7 +197,7 @@ function Footer() {
               </ul>
               <p>Disclaimer</p>
             </div>
-            <hr className="border-b my-4" />
+            <hr className=" my-4" />
             <div className="text-sm text-center">
               Copyright©2023 Realverse Associates Pvt. Ltd. All rights reserved.
             </div>
