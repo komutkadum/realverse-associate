@@ -294,7 +294,7 @@ export default function Home() {
       </section>
 
       {/* why choose realverse associates */}
-      <WhyChoose className="bg-primary-light" />
+      <WhyChoose className="bg-temp-violet-light" />
 
       {/* footer */}
       <Footer />

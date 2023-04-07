@@ -48,7 +48,7 @@ export default function Home() {
             <li>Accounting & Compliance Overview</li>
           </ul>
         </CategoryPageWhatsIncluded>
-        <WhyChoose className="bg-primary-light" />
+        <WhyChoose className="bg-temp-violet-light" />
       </CategoryLayout>
     </>
   );

@@ -22,6 +22,15 @@ body {
   display: grid;
   grid-template-columns: fit-content(32ch) minmax(min(50vw, 30ch), 1fr);
 }
+/* triangle shape */
+.triangle-arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+
+  border-top: 15px solid rgb(245 158 11 / 1);
+}
 
 /* slider animation */
 .slider div {
@@ -220,7 +229,7 @@ body {
     @apply flex justify-between items-end;
   }
   .service-detail-bottom-button {
-    @apply w-[126px] h-[33px] font-black  flex items-center py-2 px-3.5 border text-temp-violet border-temp-violet hover:bg-temp-violet-dark hover:text-white ease-in-out delay-100 transition-colors text-[13px];
+    @apply w-[126px] h-[33px] font-black rounded-md  flex items-center py-2 px-3.5 border text-amber-500 border-amber-500 hover:bg-amber-500 hover:text-white ease-in-out delay-100 transition-colors text-[13px];
   }
   .loans_Insurance_shadow > div {
     @apply font-semibold text-primary-blue text-lg py-8 whitespace-nowrap;

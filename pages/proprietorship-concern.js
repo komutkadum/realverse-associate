@@ -41,7 +41,7 @@ export default function Home() {
             <li>Private Limited Registration</li>
           </ul>
         </CategoryPageWhatsIncluded>
-        <WhyChoose className="bg-primary-light" />
+        <WhyChoose className="bg-temp-violet-light" />
         <CategoryPageWhatsIncluded title="Documents Required">
           <ul className="list-image-[url(/icons/caret.png)]">
             <li className="mb-2">Latest Electricity Bill (Business Place)</li>

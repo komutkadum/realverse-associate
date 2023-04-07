@@ -46,7 +46,7 @@ export default function Home() {
             <li>Business Plan & DPIIT Registration</li>
           </ul>
         </CategoryPageWhatsIncluded>
-        <WhyChoose className="bg-primary-light" />
+        <WhyChoose className="bg-temp-violet-light" />
         <CategoryPageWhatsIncluded title="Documents Required">
           <ul className="list-image-[url(/icons/caret.png)]">
             <li className="mb-2">Cash Books</li>

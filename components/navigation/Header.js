@@ -68,7 +68,9 @@ function Header() {
             </ul>
           </li>
           <li className="flex items-center relative group cursor-pointer h-[60px]">
-            <span className="group-hover:text-black">Loans & Insurance</span>
+            <span className="group-hover:text-amber-500">
+              Loans & Insurance
+            </span>
             &nbsp;
             <img
               src="/icons/arrow-down.png"

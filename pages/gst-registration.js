@@ -43,7 +43,7 @@ export default function Home() {
             <li>Free IEC Certificate</li>
           </ul>
         </CategoryPageWhatsIncluded>
-        <WhyChoose className="bg-primary-light" />
+        <WhyChoose className="bg-temp-violet-light" />
         <CategoryPageWhatsIncluded title="Documents Required">
           <ul className="list-image-[url(/icons/caret.png)]">
             <li className="mb-2 list-image-none font-bold">

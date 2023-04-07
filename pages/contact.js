@@ -20,8 +20,8 @@ function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <section className="bg-primary-light">
-        <div className="max-w-6xl px-5  md:px-10 mx-auto pt-6 md:pt-10 pb-28">
+      <section className="bg-temp-violet-light pt-6 pb-10 px-2">
+        <div className="max-w-6xl px-5  md:px-10 mx-auto pt-6 md:pt-10 pb-10 shadow-sm border bg-white">
           <h1 className="text-2xl md:text-4xl text-center font-extrabold text-amber-500">
             Contact Us
           </h1>
@@ -76,7 +76,7 @@ function Home() {
               </div>
               <div>
                 <button
-                  className="bg-blue-600 rounded-md disabled:bg-gray-500 disabled:cursor-not-allowed hover:bg-blue-700 py-2 px-14 text-lg text-white"
+                  className="bg-amber-500 rounded-md disabled:bg-gray-500 disabled:cursor-not-allowed hover:bg-amber-600 py-2 px-14 text-lg text-white"
                   disabled={loading}
                 >
                   {loading ? 'submitting...' : 'Submit'}
@@ -96,15 +96,15 @@ function Home() {
 
       <section className="">
         <div className="max-w-7xl px-2 service-category-lg:px-4 mx-auto pt-28 pb-28">
-          <h1 className="text-2xl md:text-4xl text-center font-extrabold text-amber-500">
+          <h1 className="text-2xl md:text-4xl text-center font-extrabold text-amber-500 pb-6">
             Our Office
           </h1>
           <div className="grid service-category-lg:grid-cols-contactTemplate mt-6  gap-x-3">
             <div className="border px-4 py-5 flex flex-col gap-y-2 bg-white text-temp-violet-dark">
               <h1 className="text-2xl text-center font-medium">Address</h1>
-              <p>
-                A-201, 2nd Floor, Galore Tech Lohia-Jain Bldg., Chandni Chowk,
-                Bavdhan (Khurd), Pune-411021, Maharashtra, India.
+              <p className="text-sm">
+                World Trade Centre, 22nd Floor, 26/1, BRIGADE GATEWAY, Dr
+                Rajkumar Rd, Malleshwaram, Bengaluru, Karnataka - 560055
               </p>
               <p>080-69428002</p>
               <p>enquiry@realverseassociate.com</p>

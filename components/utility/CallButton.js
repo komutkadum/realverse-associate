@@ -8,7 +8,7 @@ function CallButton() {
         <div className="flex items-center flex-col gap-y-4 ">
           <Link
             href="https://wa.me/+919164484777"
-            className="hover:-translate-y-3 transition-transform duration-700 shadow-2xl ease-in-out"
+            className="hover:-translate-y-3 transition-transform duration-500 ease-in-out"
           >
             <img
               src="/images/whatsapp.png"
