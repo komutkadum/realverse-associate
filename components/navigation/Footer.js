@@ -194,6 +194,14 @@ function Footer() {
                 <li>
                   <CustomLink href="/contact">Contact</CustomLink>
                 </li>
+                <li>
+                  <a
+                    href="https://prestigelavender-fields.in/"
+                    className="hover:text-amber-400 hover:underline underline-offset-2"
+                  >
+                    Other Business
+                  </a>
+                </li>
               </ul>
               <p>Disclaimer</p>
             </div>
